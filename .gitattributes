@@ -1,0 +1,21 @@
+# 统一换行，避免 Windows / macOS 协作时整文件 diff
+* text=auto eol=lf
+
+# C++ 源码
+*.h    text
+*.cpp  text
+*.cs   text
+
+# 文档
+*.md   text
+
+# 配置
+*.ini  text
+*.uplugin text
+
+# 二进制资产：不做换行与文本 diff
+*.png  binary
+*.uasset binary
+*.umap  binary
+*.dll  binary
+*.pdb  binary

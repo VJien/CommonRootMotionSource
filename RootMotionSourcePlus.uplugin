@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.1.0",
+	"FriendlyName": "JTW Root Motion Source Plus",
+	"Description": "Data-driven, network-safe root motion source scheduler for CharacterMovementComponent. Movement, animation root motion warping, rotational warping with timing curves, forces and async nodes, plus built-in debug tools. Unreal Engine 5.8.",
+	"Category": "Gameplay",
+	"CreatedBy": "JTW Studio",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EngineVersion": "5.8.0",
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "RootMotionSourcePlus",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+# Unreal Engine 构建产物
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+
+# IDE / 工程文件
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# 编译中间产物
+*.obj
+*.pdb
+*.dll
+*.lib
+*.exe
+*.o
+*.a
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Python（打包脚本可能在本地生成缓存）
+__pycache__/
+*.pyc
